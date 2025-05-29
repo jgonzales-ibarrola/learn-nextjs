@@ -12,8 +12,8 @@ import { Button } from "@/app/ui/button";
 import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
-import { CreateInvoiceFormValues, InvoiceFormState } from "@/lib/types";
-import { createInvoice } from "@/lib/actions";
+import { CreateInvoiceFormValues, InvoiceFormState } from "@/lib/types/invoice";
+import { createInvoice } from "@/lib/actions/invoice";
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
 	const [errors, setErrors] = useState<InvoiceFormState["fieldErrors"]>();

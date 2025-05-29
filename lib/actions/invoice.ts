@@ -8,7 +8,7 @@ import {
 	InvoiceFormState,
 	UpdateInvoice,
 	UpdateInvoiceFormValues,
-} from "./types";
+} from "../types/invoice";
 
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: "require" });
 

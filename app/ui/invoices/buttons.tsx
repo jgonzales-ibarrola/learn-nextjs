@@ -1,6 +1,6 @@
 "use client";
 import LoadingSpinner from "@/components/loading-spinner";
-import { deleteInvoice } from "@/lib/actions";
+import { deleteInvoice } from "@/lib/actions/invoice";
 import { PencilIcon, PlusIcon, TrashIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { useTransition } from "react";

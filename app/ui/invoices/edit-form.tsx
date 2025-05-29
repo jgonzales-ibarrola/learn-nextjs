@@ -12,7 +12,7 @@ import { Button } from "@/app/ui/button";
 import { updateInvoice } from "@/lib/actions";
 import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
-import { InvoiceFormState, UpdateInvoiceFormValues } from "@/lib/types";
+import { InvoiceFormState, UpdateInvoiceFormValues } from "@/lib/types/invoice";
 import { SubmitHandler, useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 
